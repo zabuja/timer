@@ -1,13 +1,13 @@
 var countDate = new Date('Jan 1, 2022 00:00:00').getTime();
 function newYear()
 {
-    var now = new Date().getTime();
-        gap = ((countDate) - (now));
+    var today = new Date().getTime();
+        gap = ((countDate) - (today));
     
         var second = 1000;
         var minute = second * 60;
         var hour = minute * 60;
-        var days = hour * 24;
+        var day = hour * 24;
 
 
         var d = Math.floor((gap)/(day));
